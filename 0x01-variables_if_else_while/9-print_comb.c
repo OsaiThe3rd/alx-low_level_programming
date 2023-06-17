@@ -1,15 +1,20 @@
 #include <stdio.h>
 /**
- * main - Print out all digits
- * Return: 0
+ * main - A program to print out all alphabets
+ * Return: 0 (success)
  */
 int main(void)
 {
 	int s;
 
-	for (s = 0; s < 10; s++)
+	for (is = 0; s < 10; s++)
 	{
-		putchar(s + '0');
+		putchar(s);
+		if (s < 10)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);

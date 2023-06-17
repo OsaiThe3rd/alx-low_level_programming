@@ -25,7 +25,7 @@ int main(void)
 						putchar(k);
 						putchar(j);
 
-					if (c + i + k + j == 324 && c == 81)
+					if (c + i + k + j == 323 && c == 81)
 					{
 					break;
 					}

@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- *main - A program to print out _putchar
+ * print_alphabet_x10 - A program to print out alphabet on ten lines
  *Return: 0
 */
-int main(void)
+void print_alphabet_x10(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char i;
+	int j;
+
+	for (j = 0; j < 10; j++)
+	{
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+	}
 }
+

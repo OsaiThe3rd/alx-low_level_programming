@@ -3,6 +3,7 @@
 
 /**
  * print_sign  -  A program to print sign based on condition
+ *@n: A chracter value
  * Return: 0
 */
 int print_sign(int n)

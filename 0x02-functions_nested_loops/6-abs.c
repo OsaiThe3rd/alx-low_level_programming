@@ -1,19 +1,13 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- *main - A program to print out _putchar
- *Return: 0
+ * _abs -  A program to print an absolute value
+ *@c: A chracter value
+ *
+ * Return: 0
 */
-int main(void)
+int _abs(int c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	return (abs(c));
 }

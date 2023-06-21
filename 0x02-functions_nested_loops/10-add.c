@@ -1,19 +1,13 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- *main - A program to print out _putchar
- *Return: 0
+ * add -  A program to print addition of tw numbers
+ *@c: A chracter value
+ *@d: A chracter value
+ * Return: 0
 */
-int main(void)
+int add(int c, int d)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	return (c + d);
 }

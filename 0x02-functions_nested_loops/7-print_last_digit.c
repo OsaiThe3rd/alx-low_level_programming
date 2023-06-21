@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- *main - A program to print out _putchar
- *Return: 0
-*/
-int main(void)
+  * print_last_digit - Prints the last digit of a number
+  * @n: The number to be treated
+  * Return: Value of the last digit of number
+  */
+int print_last_digit(int n)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	int last;
+
+	last = n % 10;
+
+	if (last < 0)
+	{
+		last = last * -1;
+	}
+
+	_putchar(last + '0');
+
+	return (last);
 }

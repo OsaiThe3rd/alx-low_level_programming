@@ -1,19 +1,25 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
- *main - A program to print out _putchar
- *Return: 0
+ * print_sign  -  A program to print sign based on condition
+ * Return: 0
 */
-int main(void)
+int print_sign(int n)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }

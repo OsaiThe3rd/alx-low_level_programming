@@ -3,6 +3,7 @@
 
 /**
  * _isalpha -  A program to print outlower case
+ *@c: A chracter value
  * Return: 0
 */
 int _isalpha(int c)

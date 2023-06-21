@@ -3,6 +3,7 @@
 
 /**
  * _islower - A program to print outlower case
+ * @c: A chracter value
  * Return: 0
 */
 int _islower(int c)

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * positive_or_negative - is to check if a number is positive or negative
+ * positive_or_negative - is to check if a number is positive, neative or zero
  * @i : number to be checked
  * Return:0
  */
@@ -12,7 +12,7 @@ void positive_or_negative(int i)
 	}
 	else if (i > 0)
 	{
-		printf("%d is %s\n", i, "positive");
+		pritf("%d is %s\n", i, "positive");
 	}
 	else
 	{

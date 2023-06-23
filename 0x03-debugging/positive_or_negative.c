@@ -2,7 +2,7 @@
 /**
  * positive_or_negative - is to check if a number is positive, negative or zero
  * @i : number to be checked
- * Return:0
+ * Return: 0
  */
 void positive_or_negative(int i)
 {

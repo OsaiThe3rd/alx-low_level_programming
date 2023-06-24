@@ -1,1 +1,1 @@
-readme for debugging
+My First C Programming code
